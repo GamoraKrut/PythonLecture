@@ -135,3 +135,46 @@
 #     print('YES')
 # else:
 #     print('NO')
+
+# # Программа определяющая евклидово расстояние между двумя точками, координаты которых заданы.
+# from math import *
+# x1, y1, x2, y2 = float(input()), float(input()), float(input()), float(input())
+# p = sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2))
+# print(p)
+
+# # Программа определяющая площадь круга и длину окружности по заданному радиусу R
+# from math import pi
+# r = float(input())
+# s = pi * pow(r, 2)
+# c = 2 * pi * r
+# print(s)
+# print(c)
+
+# # Программа должна вывести 4 числа – среднее арифметическое, геометрическое, гармоническое и квадратичное
+# from math import *
+# a, b = float(input()), float(input())
+# mid_ariph = (a + b) / 2
+# mid_geom = sqrt((a * b))
+# mid_garmon = (2 * (a * b)) / (a + b)
+# mid_sqare = sqrt((pow(a, 2) + pow(b, 2)) / 2)
+# print(mid_ariph)
+# print(mid_geom)
+# print(mid_garmon)
+# print(mid_sqare)
+
+# # Даны три вещественных числа a, b, c. Программа, которая находит вещественные корни квадратного уравнения
+# # a * (x ** 2) + bx + c == 0
+# from math import *
+# a, b, c = float(input()), float(input()), float(input()),
+# d = pow(b, 2) - (4 * a * c)
+# if d < 0:
+#     print('Нет корней')
+# elif d == 0:
+#     print(- b / (2 * a))
+# else:
+#     x1 = (- b + sqrt(d)) / (2 * a)
+#     x2 = (- b - sqrt(d)) / (2 * a)
+#     minimal = min(x1, x2)
+#     maximal = max(x1, x2)
+#     print(minimal)
+#     print(maximal)
