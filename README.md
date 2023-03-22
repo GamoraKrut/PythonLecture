@@ -116,9 +116,10 @@ Created by Guido van Rossum and first released in 1991, Python design
 philosophy emphasizes code readability with its notable use of significant whitespace.
 ```
 
-* ## Оператор in - c его помощью можно можно проверить находится ли одна строка внутри другой
+* ## Оператор __*in*__ - c его помощью можно можно проверить находится ли одна строка внутри другой
 
 Пример:
+
 ```python
 s = input()
 if 'a' in s:
