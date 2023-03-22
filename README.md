@@ -116,7 +116,7 @@ Created by Guido van Rossum and first released in 1991, Python design
 philosophy emphasizes code readability with its notable use of significant whitespace.
 ```
 # Функции
-* ## *__min__* - находит самое мленькое значение в списке
+* ## *__min__* - находит самое маленькое значение в списке
 
 * ## *__max__* - находит самое большое значение в списке
 
