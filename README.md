@@ -115,6 +115,21 @@ Python is an interpreted, high-level, general-purpose programming language.
 Created by Guido van Rossum and first released in 1991, Python design 
 philosophy emphasizes code readability with its notable use of significant whitespace.
 ```
+
+* ## Оператор in - c его помощью можно можно проверить находится ли одна строка внутри другой
+
+Пример:
+```python
+s = input()
+if 'a' in s:
+    print('Введенная строка содержит символ а')
+else:
+    print('Введенная строка не содержит символ а')
+```
+
+* **Примечание**
+ Если строка s1 содержится в строке s2, то говорят, что строка s1 является подстрокой для строки s2. Другими словами, оператор in определяет является ли одна строка подстрокой другой.
+
 # Функции
 * ## *__min__* - находит самое маленькое значение в списке
 
