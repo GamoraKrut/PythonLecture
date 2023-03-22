@@ -64,12 +64,63 @@ print(num2)
 25000000
 ```
 
+# Операции со строками:
+
+* ## Канкатенация - сложение строк
+
+Пример: 
+
+```python
+s1 = 'ab' + 'bc'
+s2 = 'bc' + 'ab'
+s3 = s1 + s2 + '!!'
+print(s1)
+print(s2)
+print(s3)
+```
+
+Результат:
+```Python
+abbc
+bcab
+abbcbcab!!
+```
+
+* ## Умножение
+
+Пример:
+```Python
+s = 'Hi' * 4
+print(s)
+```
+```python
+HiHiHiHi
+```
+
+* Тройные кавычки '''...''' можно использовать для многострочного текста
+
+Пример:
+
+```Python
+text = '''Python is an interpreted, high-level, general-purpose programming language.
+Created by Guido van Rossum and first released in 1991, Python design 
+philosophy emphasizes code readability with its notable use of significant whitespace.'''
+print(text)
+```
+
+На выводе будет:
+
+```
+Python is an interpreted, high-level, general-purpose programming language.
+Created by Guido van Rossum and first released in 1991, Python design 
+philosophy emphasizes code readability with its notable use of significant whitespace.
+```
 # Функции
-* *__min__* - находит самое мленькое значение в списке
+* ## *__min__* - находит самое мленькое значение в списке
 
-* *__max__* - находит самое большое значение в списке
+* ## *__max__* - находит самое большое значение в списке
 
-* *__abs__* - находитмодуль числа
+* ## *__abs__* - находитмодуль числа
 
 Примеры:
 
@@ -108,3 +159,22 @@ print(abs(-17.67))
 0
 17.67
 ```
+
+* ## *len( )* - Считает длинну строки
+
+Пример:
+```python
+s1 = 'abcdef'
+length1 = len(s1)               # считаем длину строки из переменной s1
+length2 = len('Python rocks!')  # считаем длину строкового литерала
+print(length1)
+print(length2)
+```
+
+Вывод:
+
+```python
+6
+13
+```
+
